@@ -5,7 +5,7 @@ return {
       enabled = true,
       -- NOTE: Keep this incase i need to flip the config
       --cloak_character = '*',
-      cloak_character = '🥔',
+      cloak_character = '🍖🥔',
       -- The applied highlight group (colors) on the cloaking, see `:h highlight`.
       highlight_group = 'Comment',
       patterns = {
