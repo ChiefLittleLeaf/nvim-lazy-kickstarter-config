@@ -71,7 +71,7 @@ return {
       {
         '<C-s>',
         function()
-          require('harpoon'):list():select(3)
+          require('harpoon'):list():select(4)
         end,
         desc = 'harpoon to file 4',
       },
