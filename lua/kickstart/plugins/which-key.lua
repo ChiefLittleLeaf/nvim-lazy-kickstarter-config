@@ -20,8 +20,7 @@ return {
     config = function() -- This is the function that runs, AFTER loading
       require('which-key').setup()
 
-      local wk = require 'which-key'
-      wk.add {
+      require('which-key').add {
         { '<leader>c', group = '[C]ode' },
         { '<leader>c_', hidden = true },
         { '<leader>d', group = '[D]ocument' },
